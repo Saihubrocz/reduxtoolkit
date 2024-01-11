@@ -11,7 +11,7 @@ import {addTodo} from '../features/todo/todoSlice'
 // useState accepts an initial state and returns two values:
 // The current state.
 // A function that updates the state.
-function AddTodo() {
+ export default function AddTodo() {
 
     const [input, setInput] = useState('')
     const dispatch = useDispatch()
@@ -41,4 +41,3 @@ function AddTodo() {
     </form>
   )
 }
-export default AddTodo
