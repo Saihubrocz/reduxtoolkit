@@ -1,6 +1,5 @@
 // This file is used to send values to store,for sending we have useDispatch jo be reducer(addTodo) hy us reducer ko 
 // import karna us useDispatch ke sath bhejna
-
 import React, {useState} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {addTodo} from '../features/todo/todoSlice' 
@@ -36,7 +35,7 @@ import {addTodo} from '../features/todo/todoSlice'
         type="submit"
         className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
       >
-        Add Todo
+         click to Add Todo 
       </button>
     </form>
   )
